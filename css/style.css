@@ -66,9 +66,9 @@ img { max-width: 100%; display: block; }
 }
 
 .site-header.on-photo .brand,
-.site-header.on-photo .nav a {
+.site-header.on-photo nav.main-nav a {
   color: #fff;
-  text-shadow: 0 1px 6px rgba(0,0,0,0.35);
+  text-shadow: 0 1px 3px rgba(0,0,0,0.9), 0 1px 10px rgba(0,0,0,0.6);
 }
 
 .site-header.on-photo {
@@ -190,7 +190,7 @@ nav.main-nav a.active {
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0.05) 35%, rgba(0,0,0,0.55) 100%);
+  background: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.15) 18%, rgba(0,0,0,0.05) 38%, rgba(0,0,0,0.55) 100%);
 }
 
 .hero-caption {
