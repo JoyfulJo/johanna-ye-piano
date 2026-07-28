@@ -445,6 +445,20 @@ p { margin: 0 0 22px; color: var(--ink); }
   color: var(--muted);
 }
 
+.video-label {
+  font-family: var(--serif);
+  font-size: 20px;
+  color: var(--gold);
+  margin: 0 0 16px;
+}
+
+.video-credits {
+  margin-top: 10px;
+  font-size: 13px;
+  line-height: 1.9;
+  color: var(--muted);
+}
+
 /* Contact */
 
 .contact-grid {
