@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Johanna Ye</title>
+<meta name="description" content="Contact pianist Johanna Ye.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header is-solid">
+  <div class="wrap header-row">
+    <a class="brand" href="index.html">Johanna Ye</a>
+    <button class="nav-toggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="concerts.html">Concerts</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="page-hero" style="height:34vh; min-height:220px;">
+  <img src="images/gallery-outdoor.jpg" alt="Johanna Ye, pianist" style="object-position:50% 10%;">
+  <div class="hero-overlay"></div>
+  <h1 class="page-title">Contact</h1>
+</section>
+
+<main>
+  <section class="section">
+    <div class="wrap">
+      <div class="contact-grid">
+        <div class="contact-side">
+          <p class="role-name">Johanna Ye<br>Pianist</p>
+          <div class="rule center"></div>
+          <p class="muted">For booking inquiries, collaborations, or general questions, please use the form.</p>
+
+          <!-- Add social links here when ready, e.g.:
+          <div class="social-links">
+            <a href="#">Instagram</a>
+            <a href="#">YouTube</a>
+          </div>
+          -->
+        </div>
+
+        <div class="contact-divider"></div>
+
+        <div>
+          <div class="contact-form-heading">
+            <h2>Contact Form</h2>
+            <p>For concert inquiries or collaboration requests, feel free to get in touch.</p>
+          </div>
+
+          <form class="contact-form" id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <div class="field-row">
+              <div class="field">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="field">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+            </div>
+            <div class="field">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone">
+            </div>
+            <div class="field">
+              <label for="message">Write Your Request</label>
+              <textarea id="message" name="message" rows="5"></textarea>
+            </div>
+
+            <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+
+            <div class="submit-row">
+              <button type="submit">Submit Now</button>
+            </div>
+            <p class="form-status" id="form-status" role="status"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">&copy; <span id="year"></span> Johanna Ye</div>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/contact-form.js"></script>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery | Johanna Ye</title>
+<meta name="description" content="Photos and recordings of pianist Johanna Ye.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header is-solid">
+  <div class="wrap header-row">
+    <a class="brand" href="index.html">Johanna Ye</a>
+    <button class="nav-toggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="concerts.html">Concerts</a></li>
+        <li><a class="active" href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="page-hero">
+  <img src="images/hero.jpg" alt="Johanna Ye, pianist" style="object-position:70% 20%;">
+  <div class="hero-overlay"></div>
+  <h1 class="page-title">Gallery</h1>
+</section>
+
+<main>
+  <section class="section">
+    <div class="wrap section-narrow">
+      <p class="section-kicker">Recordings</p>
+      <div class="video-block">
+        <div class="video-frame">
+          <iframe src="https://www.youtube.com/embed/N-LQgqctToI" title="Johanna Ye, piano" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+        </div>
+        <p class="video-caption">Johanna Ye, piano</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0;">
+    <div class="wrap">
+      <p class="section-kicker" style="text-align:center;">Photos</p>
+      <div class="gallery-grid">
+        <figure>
+          <a href="images/hero.jpg" target="_blank" rel="noopener">
+            <img src="images/hero.jpg" alt="Johanna Ye, pianist, seated portrait" loading="lazy">
+          </a>
+        </figure>
+        <figure>
+          <a href="images/gallery-outdoor.jpg" target="_blank" rel="noopener">
+            <img src="images/gallery-outdoor.jpg" alt="Johanna Ye, pianist, outdoor portrait" loading="lazy">
+          </a>
+        </figure>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">&copy; <span id="year"></span> Johanna Ye</div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

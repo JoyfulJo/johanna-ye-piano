@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About | Johanna Ye</title>
+<meta name="description" content="Biography of pianist Johanna Ye.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header is-solid">
+  <div class="wrap header-row">
+    <a class="brand" href="index.html">Johanna Ye</a>
+    <button class="nav-toggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+    <nav class="main-nav">
+      <ul>
+        <li><a class="active" href="about.html">About</a></li>
+        <li><a href="concerts.html">Concerts</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="page-hero">
+  <img src="images/hero.jpg" alt="Johanna Ye, pianist">
+  <div class="hero-overlay"></div>
+  <h1 class="page-title">About</h1>
+</section>
+
+<main>
+  <section class="section">
+    <div class="wrap">
+      <div class="bio-grid">
+        <figure class="bio-photo">
+          <img src="images/gallery-outdoor.jpg" alt="Johanna Ye">
+          <figcaption>Johanna Ye, pianist</figcaption>
+          <div class="credentials">
+            <strong>Studies with</strong><br>
+            Dr. Sharon Mann (currently)<br>
+            Prof. Karl-Andreas Kolly, Switzerland (previously)
+            <div class="rule"></div>
+            <strong>Honors</strong><br>
+            ARCT Diploma in Piano Performance<br>
+            American Protégé Concerto Competition<br>
+            American Fine Arts Festival Concerto Competition
+          </div>
+        </figure>
+
+        <div class="bio-copy">
+          <p class="section-kicker">Biography</p>
+          <p>Johanna Ye is a pianist whose musical life brings together performance, collaboration, and service. She currently studies privately with Dr. Sharon Mann and previously studied with Professor Karl-Andreas Kolly in Switzerland. She earned the ARCT Diploma in Piano Performance and has received prizes from the American Protégé Concerto Competition and the American Fine Arts Festival Concerto Competition.</p>
+          <p>Johanna has performed in solo recitals, concerto programs, and festivals in the United States and Europe. Recent experiences include the PianoTexas International Festival &amp; Academy and the International Summer Academy Biel, where she performed and studied the Schumann Piano Concerto.</p>
+
+          <h2 class="subhead">Music as Conversation</h2>
+          <p>Johanna is especially drawn to chamber music and collaborative performance. She values the attentiveness that develops when musicians listen, respond, and shape an interpretation together. For her, music is at its most meaningful when it becomes a genuine conversation&mdash;among performers, with an audience, and across experiences that words cannot always express.</p>
+
+          <h2 class="subhead">Music in Service</h2>
+          <p>Johanna believes that music can be an act of care. She serves through music in her church community and hopes to share more performances in hospitals, senior living communities, and other places where music can offer comfort, companionship, and joy. She is particularly interested in creating intimate musical experiences that help people feel seen and connected.</p>
+
+          <div class="rule"></div>
+          <p class="muted">Outside music, Johanna holds bachelor&rsquo;s and master&rsquo;s degrees in computer science from the University of California, Berkeley, and works as an engineer at Roblox. She has discovered that debugging software and untangling a difficult piano passage require suspiciously similar amounts of patience&mdash;although Schumann rarely provides a useful error message.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">&copy; <span id="year"></span> Johanna Ye</div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
